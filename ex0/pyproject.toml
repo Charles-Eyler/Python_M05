@@ -1,0 +1,17 @@
+[project]
+name = "lab_env"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "bpassos-",email = "bpassos-@student.42lisboa.com"}
+]
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = ">=2.1.0"
+numpy = ">=1.25.0"
+
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
